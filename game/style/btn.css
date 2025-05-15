@@ -1,0 +1,144 @@
+  .button1{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 70px;
+    font-family: Marker Felt, fantasy;
+    height: 150px;
+    width: 500px;
+    cursor: pointer;
+    text-align: center;
+    outline: none;
+    color: rgb(243, 243, 243);
+    background-color: rgba(24, 171, 29, 0.734);
+    border: none;
+    border-radius: 90px;
+    box-shadow: 0 15px rgba(24, 117, 29, 0.734);
+  }
+
+  .button:hover 
+  {background-color: rgba(24, 138, 29, 0.789)}
+
+  .button:active {
+    background-color: rgba(24, 138, 29, 0.789);
+    box-shadow: 0 5px rgba(24, 72, 29, 0.734);
+    transform: translateY(4px);
+  }
+
+  .button2{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 50px;
+    font-family: Marker Felt, fantasy;
+    height: 100px;
+    width: 450px;
+    cursor: pointer;
+    text-align: center;
+    outline: none;
+    color: rgb(243, 243, 243);
+    background-color: rgba(24, 171, 29, 0.734);
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0 9px rgba(24, 117, 29, 0.734);
+  }
+
+  .button3{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 70px;
+    font-family: Marker Felt, fantasy;
+    height: 150px;
+    width: 600px;
+    cursor: pointer;
+    text-align: center;
+    outline: none;
+    color: rgb(243, 243, 243);
+    background-color: rgba(24, 171, 29, 0.734);
+    border: none;
+    border-radius: 90px;
+    box-shadow: 0 15px rgba(24, 117, 29, 0.734);
+  }
+
+  .btn{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: Marker Felt, fantasy;
+    height: 80px;
+    width: 400px;
+    cursor: pointer;
+    text-align: left;
+    outline: none;
+    color: rgb(255, 247, 0);
+    background-color: rgba(224, 202, 137, 0.734);
+    border: none;
+    border-radius: 0px;
+    box-shadow: 0 9px rgba(179, 161, 117, 0.755);
+    flex: content;
+  }
+
+  .btn:hover 
+  {background-color: rgba(206, 186, 134, 0.755)}
+
+  .btn:active {
+    background-color: rgba(165, 147, 101, 0.755);
+    box-shadow: 0 5px rgba(137, 121, 81, 0.755);
+    transform: translateY(4px);
+  }
+
+  .btn1{
+    display: inline-block;
+    text-decoration: none;
+    position: absolute; 
+    top: -10px; 
+    right: -10px; 
+    font-size: 30px;
+    font-family: Marker Felt, fantasy;
+    height: 100px;
+    width: 300px;
+    cursor: pointer;
+    text-align: center;
+    outline: none;
+    color: rgb(243, 243, 243);
+    background-color: rgba(133, 133, 133, 0.748);
+    border: none;
+    border-radius: 0px;
+    box-shadow: 0 9px rgba(78, 78, 78, 0.755);
+  }
+  
+  .btn1:hover 
+  {background-color: rgb(96, 96, 96, 0.755)}
+
+  .btn1:active {
+    background-color: rgb(96, 96, 96, 0.755);
+    box-shadow: 0 5px rgba(56, 56, 56, 0.755);
+    transform: translateY(4px);
+  }
+
+  .btn2{
+    display: inline-block;
+    text-decoration: none;
+    position: absolute; 
+    bottom: 10px; 
+    right: 5px; 
+    font-size: 20px;
+    font-family: Marker Felt, fantasy;
+    height: 50px;
+    width: 200px;
+    cursor: pointer;
+    text-align: center;
+    outline: none;
+    color: rgb(160, 109, 33);
+    background-color: rgba(224, 202, 137, 0.734);
+    border: none;
+    border-radius: 0px;
+    box-shadow: 0 9px rgba(179, 161, 117, 0.755);
+  }
+
+  .btn2:hover 
+  {background-color: rgba(206, 186, 134, 0.755)}
+
+  .btn2:active {
+    background-color: rgba(165, 147, 101, 0.755);
+    box-shadow: 0 5px rgba(137, 121, 81, 0.755);
+    transform: translateY(5px);
+  }

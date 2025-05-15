@@ -1,0 +1,7 @@
+.example-container{
+    position:absolute;
+    height: 300px;
+    width: 300px;
+    top:200px;
+    left: 10px;
+  }
