@@ -1,0 +1,47 @@
+{
+  "name": "react-tasks",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "tasks": "node ./script/genTasks.js",
+    "start": "vite"
+  },
+  "dependencies": {
+    "@types/three": "^0.175.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-move": "^6.5.0",
+    "react-popper": "^2.3.0",
+    "react-router-dom": "^7.5.0",
+    "three": "^0.175.0",
+    "use-immer": "^0.11.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.9.0",
+    "@floating-ui/react": "^0.27.6",
+    "@playwright/test": "^1.52.0",
+    "@popperjs/core": "^2.11.8",
+    "@react-three/drei": "^9.122.0",
+    "@react-three/fiber": "^8.18.0",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.3.0",
+    "@types/node": "^22.15.3",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react-swc": "^3.5.0",
+    "d3-interpolate": "^3.0.1",
+    "eslint": "^9.9.0",
+    "eslint-plugin-react-hooks": "^5.1.0-rc.0",
+    "eslint-plugin-react-refresh": "^0.4.9",
+    "globals": "^15.9.0",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.0.1",
+    "vite": "^6.2.5",
+    "vitest": "^3.1.2"
+  }
+}
